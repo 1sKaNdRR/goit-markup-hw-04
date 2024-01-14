@@ -393,7 +393,9 @@ transform: translateY(0%)
     padding:100px 0;
 }
 .footer-wrap{
-justify-content: center;
+    display: flex;
+        justify-content: center;
+        align-items: center;
 
 }
 .footer-text{
@@ -413,9 +415,11 @@ justify-content: center;
 }
 .social-media{
 display: flex;
-justify-content: center;
-align-items: baseline;
+flex-direction: column;
 
+}
+.all-footer{
+align-items: center;
 }
 .footer-container{
     display: flex;
